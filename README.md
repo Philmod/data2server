@@ -6,7 +6,7 @@ The goal is to send the data acquired in Labview to a web server (RESTful).
 The data are encoded in JSON.
 
 If the web server doesn't confirm the data's reception, the data stays in the queue.
-If the queue becomes too large, a .txt file is created with all the datas and send to a FTP.
+If the queue becomes too large, a .txt file is created with all the datas and sent to a FTP.
 
 Dependencies
 ------------

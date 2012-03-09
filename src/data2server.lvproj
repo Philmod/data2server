@@ -18,6 +18,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="CPUusage.vi" Type="VI" URL="../CPUusage.vi"/>
 		<Item Name="dateString.vi" Type="VI" URL="../dateString.vi"/>
 		<Item Name="expressHeaderParser.vi" Type="VI" URL="../expressHeaderParser.vi"/>
 		<Item Name="flushQueueTo.vi" Type="VI" URL="../flushQueueTo.vi"/>
@@ -95,6 +96,10 @@
 				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+			</Item>
+			<Item Name="b77a5c561934e089" Type="Document"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
